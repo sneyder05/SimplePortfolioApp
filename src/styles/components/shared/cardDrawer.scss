@@ -1,0 +1,18 @@
+$border-color: #ccc;
+
+.card-drawer {
+  .wrapper {
+    border: 1px solid $border-color;
+    border-radius: 8px;
+    padding: 5px;
+
+    .title + .ant-divider {
+      margin: 12px 0;
+      background-color: $border-color;
+    }
+
+    .content {
+      padding: 5px;
+    }
+  }
+}

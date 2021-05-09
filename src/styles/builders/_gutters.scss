@@ -1,0 +1,63 @@
+@for $i from 0 through $max_padding_class {
+  .p-#{$i * $padding_gutter} {
+      padding: #{$i * $padding_gutter}px !important;
+  }
+
+  .pt-#{$i * $padding_gutter} {
+      padding-top: #{$i * $padding_gutter}px !important;
+  }
+
+  .pr-#{$i * $padding_gutter} {
+      padding-right: #{$i * $padding_gutter}px !important;
+  }
+
+  .pb-#{$i * $padding_gutter} {
+      padding-bottom: #{$i * $padding_gutter}px !important;
+  }
+
+  .pl-#{$i * $padding_gutter} {
+      padding-left: #{$i * $padding_gutter}px !important;
+  }
+
+  .ph-#{$i * $padding_gutter} {
+      padding-left: #{$i * $padding_gutter}px !important;
+      padding-right: #{$i * $padding_gutter}px !important;
+  }
+
+  .pv-#{$i * $padding_gutter} {
+      padding-top: #{$i * $padding_gutter}px !important;
+      padding-bottom: #{$i * $padding_gutter}px !important;
+  }
+}
+
+@for $i from 0 through $max_margin_class {
+  .m-#{$i * $margin_gutter} {
+      margin: #{$i * $margin_gutter}px !important;
+  }
+
+  .mt-#{$i * $margin_gutter} {
+      margin-top: #{$i * $margin_gutter}px !important;
+  }
+
+  .mr-#{$i * $margin_gutter} {
+      margin-right: #{$i * $margin_gutter}px !important;
+  }
+
+  .mb-#{$i * $margin_gutter} {
+      margin-bottom: #{$i * $margin_gutter}px !important;
+  }
+
+  .ml-#{$i * $margin_gutter} {
+      margin-left: #{$i * $margin_gutter}px !important;
+  }
+
+  .mh-#{$i * $margin_gutter} {
+      margin-left: #{$i * $margin_gutter}px !important;
+      margin-right: #{$i * $margin_gutter}px !important;
+  }
+
+  .mv-#{$i * $margin_gutter} {
+      margin-top: #{$i * $margin_gutter}px !important;
+      margin-bottom: #{$i * $margin_gutter}px !important;
+  }
+}
